@@ -1,0 +1,53 @@
+{
+  "functions": [
+    {
+      "codebase": "default",
+      "source": "functions",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8088
+    },
+    "functions": {
+      "port": 5001
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    }
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "barnock-a4201",
+          "appId": "1:1007107049250:android:f682dfb33fe0107d79477b",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "barnock-a4201",
+          "configurations": {
+            "android": "1:1007107049250:android:f682dfb33fe0107d79477b",
+            "ios": "1:1007107049250:ios:d1ed6ff4d766818f79477b",
+            "macos": "1:1007107049250:ios:d1ed6ff4d766818f79477b",
+            "web": "1:1007107049250:web:e05e6b2a41409e6479477b",
+            "windows": "1:1007107049250:web:a78bdf0e9f07304179477b"
+          }
+        }
+      }
+    }
+  }
+}

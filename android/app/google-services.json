@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1007107049250",
+    "project_id": "barnock-a4201",
+    "storage_bucket": "barnock-a4201.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007107049250:android:f682dfb33fe0107d79477b",
+        "android_client_info": {
+          "package_name": "com.example.barnock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTVel3S92D6cZL0oMZlxf06ewdxvv3gMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
